@@ -38,7 +38,6 @@ Examples/Monocular/mono_kitti.cc의 main 함수 하단 부분을 아래와 같�
 ```
     // Save camera trajectory
     SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");    
-    SLAM.SaveTrajectoryTUM("hi.txt");
     profiler::dumpBlocksToFile("prof.prof");
     return 0;
 ```
