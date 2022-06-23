@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>ORB-SLAM-2, kitti데이터 분석에서 EVO/CPU usage/Profile</h1>
+  <h1>ORB-SLAM-2, kitti데이터 분석에서 EVO/CPU/Profiler</h1>
 </div>
 
 ## **목적**
