@@ -109,7 +109,7 @@ def evo_mono(reference_name, file_name):
     seq_txt = seq2seqtxt(seq)
 
     gt_txt = "./gt_tum/gt_tum_" + seq_txt + ".txt"
-    code = "evo_traj tum " + file_name + " " + gt_txt+" -p --plot_mode=xz --ref="\
+    code = "evo_traj tum " + file_name + " " + gt_txt+" --plot_mode=xz --ref="\
         + gt_txt + " -as --save_as_tum"
 
     gt_tum_rm_code = "rm gt_tum_*" + ".tum"
